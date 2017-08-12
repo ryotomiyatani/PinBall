@@ -27,6 +27,10 @@ public class ScoreController : MonoBehaviour {
 					score += 1;
 		}else if(tag =="LargeStarTag"){
 			score += 10;
+		}else if(tag =="SmallCloudTag"){
+			score += 20;
+		}else if(tag =="LargeCloudTag"){
+			score += 50;
 		}
 
 	}
